@@ -20,10 +20,13 @@
 	- In the group policy management, I blocked inheritance on the IT department OU since they would need less strict rules. 
 
 	### AGDLP: Best practice model when it comes to assinging permissions in AD. Goes by accounts, groups, domain locals, and them permissions. Through this chain, users are able to properly inherit permissions. It is managable and easily scalable, ensuring everything is standardized. 
-	
-![[Pasted image 20251127175449.png]]
-![[Pasted image 20251127175529.png]]
-![[Pasted image 20251127175602.png]]
+
+<img width="922" height="538" alt="image" src="https://github.com/user-attachments/assets/f70240dd-7c1f-474b-8630-046521c68172" />
+
+
+<img width="719" height="629" alt="image" src="https://github.com/user-attachments/assets/e71f58c3-9a9f-4747-892d-c8a7771a8acf" />
+
+<img width="767" height="677" alt="image" src="https://github.com/user-attachments/assets/1a2d56e5-f9d7-4d25-a8b6-4fb88b8de7d1" />
 
 
 
@@ -38,7 +41,8 @@
 	- Then I configured firewall rules ( blocking RDP, powershell remoting and such) by blocking the specifc ports used for them ( tcp 3389,5985) and all the programs that would use said ports since other apps we need wouldnt be using those ports anyway
 	- Lastly, I configured audit events to ensure that when users login/off, access the file storage via computer or a removable device and so on my network tracks it and a report is generated. 
 
-![[Pasted image 20251128164606.png]]
+
+<img width="466" height="540" alt="image" src="https://github.com/user-attachments/assets/795d0e63-4215-4f06-90ab-c07c818d58f2" />
 
 
 
@@ -49,7 +53,8 @@
 	- Next, I installed and configured RAST so the workstations could have access to server tools in order to manage users. Subsequently, I verfied full functionality and made sure all the permissions I previosly set were in place and only accessible to the users group. 
 	- After verification, my lab was concluded. 
 
-![[Pasted image 20251130214600.png]]
+
+<img width="769" height="579" alt="image" src="https://github.com/user-attachments/assets/45db6ae4-40cd-4d2f-8815-52f89fc906d2" />
 
 
 	
